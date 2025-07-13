@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Georgia', serif;
+  color: #3b3b3b;
+  background-color: #fffaf5;
+  line-height: 1.7;
+}
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  background: #fff;
+  padding: 1rem 0;
+  border-bottom: 1px solid #eee;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 160px;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+.nav-links a:hover {
+  color: #c89f54;
+}
+
+/* Hero Section */
+.hero {
+  background: url('bg.jpg') no-repeat center center/cover;
+  margin: 10px 10px;
+  padding: 6rem 1rem;
+  color: #fff;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(to top, rgb(21, 2, 2), rgb(112, 107, 9));
+  background-clip: text;
+  -webkit-background-clip: text;
+   color: transparent;
+}
+
+.hero p {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  color: rgb(18, 12, 0);
+}
+.btn {
+  display: inline-block;
+  background: #c89f54;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  border-radius: 3px;
+  font-weight: bold;
+}
+.btn:hover {
+  background: #a87c2f;
+}
+
+/* About */
+.about {
+  padding: 4rem 0;
+}
+.about .flex {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.about img {
+  max-width: 50%;
+  border-radius: 8px;
+}
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Collection */
+.collection {
+  padding: 4rem 0;
+  background: #fefefe;
+}
+
+.collection{
+  background: url('bg2.jpg');
+  background-size: 20% 100%;
+}
+.collection h2 {
+  color: #000;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+.card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.05);
+  text-align: center;
+}
+.card img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+/* Why Choose Us */
+.why-us {
+  background: #fff3e0;
+  padding: 4rem 0;
+  text-align: center;
+}
+.features {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.feature img {
+  height: 60px;
+  margin-bottom: 1rem;
+}
+
+/* Visit Us */
+.visit {
+  background: #fdf4e3;
+  padding: 4rem 1rem;
+}
+.text-center {
+  font-style: normal;
+  text-align: center;
+}
